@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect"
 import ParticlesBackground from "./ParticlesBackground"
 
 
-export default function LandingHero()
+export default function LandingHero({href})
 {
 
     return(
@@ -76,7 +76,7 @@ export default function LandingHero()
 
                 </div>
                 {/* The call-to-action button. */}
-                <a href="#" className="inline-block my-3 px-8 py-3 text-lg font-semibold text-white bg-purple-600 hover:bg-purple-700 rounded-full shadow-lg transition duration-300 transform hover:scale-105 animate-fade-in-up">
+                <a href={href} className="inline-block my-3 px-8 py-3 text-lg font-semibold text-white bg-purple-600 hover:bg-purple-700 rounded-full shadow-lg transition duration-300 transform hover:scale-105 animate-fade-in-up">
                     Discover More
                 </a>
             </div>

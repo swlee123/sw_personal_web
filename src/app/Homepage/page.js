@@ -19,10 +19,11 @@ export default function Page() {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center z-0">
+        <div className="flex flex-col items-center justify-center z-0 ">
 
             {/* landing section */}
-            <LandingHero/>
+            <LandingHero
+            href="#introduction"/>
 
             
             {/* introduction section */}
@@ -37,8 +38,8 @@ export default function Page() {
                     src="/profile_pic.png"
                     alt="profile"
         
-                    width={180}
-                    height = {180}
+                    width={220}
+                    height = {200}
                     className="rounded-2xl"/>
                 </div>
 
@@ -68,7 +69,7 @@ export default function Page() {
                         
                     </div>
 
-                    <div className="mx-20 text-s font-sans tracking-normal leading-relaxed overflow-hidden">
+                    <div className="mx-20 text-s tracking-normal leading-relaxed overflow-hidden font-mono">
                         <p>Hi, I'm Lee Shang Wei, an Associate Solution Architect at AWS London. I focus on designing secure, scalable, and cost-efficient cloud solutions that help businesses run reliably in the cloud.
                         Outside of work, I'm learning to become a full-stack developer, with the goal of building and launching SaaS products end-to-end. I'm also interested in website and workflow automation tools that speed up development and work efficiency.
                         My past projects include building machine learning models, developing web applications, and experimenting with automation to validate ideas quickly. </p>
@@ -106,19 +107,19 @@ export default function Page() {
                             </div>
 
                             <div className="mb-6">
-                                <h4 className="text-lg font-semibold">Amazon Web Service</h4>
+                                <h4 className="text-lg font-semibold">Amazon Web Service, London</h4>
                                 <p className="text-gray-600 mt-1 text-sm">Supporting business to build product using AWS cloud</p>
                             </div>
 
                             <CareerCard
                             title={"Computer Science Intern"}
-                            company={"Footfallcam"}
+                            company={"Footfallcam, Sungai Long"}
                             description={"I help ChinKit (manager) write code and IT stuff"}
                             date={"2023.6 - 2023.9"}/>
 
                             <CareerCard
                             title={"Temporary Teacher"}
-                            company={"SJK(C) Tche Min"}
+                            company={"SJK(C) Tche Min, Sungai Pelek"}
                             description={"I make sure kids finish their homework"}
                             date={"2022.5 - 2022.7"}/>
 
@@ -129,6 +130,15 @@ export default function Page() {
                                 </span>
                                 <span className="bg-gray-200 text-gray-700 py-1 px-3 rounded-full text-xs font-medium">
                                     React
+                                </span>
+                                <span className="bg-gray-200 text-gray-700 py-1 px-3 rounded-full text-xs font-medium">
+                                    Git
+                                </span>
+                                <span className="bg-gray-200 text-gray-700 py-1 px-3 rounded-full text-xs font-medium">
+                                    Python
+                                </span>
+                                <span className="bg-gray-200 text-gray-700 py-1 px-3 rounded-full text-xs font-medium">
+                                    Javascript
                                 </span>
                             </div>
 
@@ -142,18 +152,33 @@ export default function Page() {
                             Project
                         </h1>
 
-                        <div className="flex flex-row bg-amber-500 opacity-70 my-3 rounded-xl h-100 p-3 w-full " class="card">
+                        <div className="flex flex-grow bg-amber-500 opacity-70 my-3 rounded-xl h-100 p-3 w-full " class="card">
                             <ProjectCard
                             icon={icons["Film"]}
-                            title={"Project 1"}
-                            description={"This project is lorem isup dom bafvfdfds fdfdas in the wall"}
-                            technologies={['React','Javasciprt','Python']}/>
+                            title={"Amazon Web Clone"}
+                            description={"Amazon e-commerce clone.Implemented user accounts, product listings, carts, and secure payments with responsive UI and server-side rendering for fast, seamless performance."}
+                            technologies={['React','Javascript','Stripe','Tailwind CSS']}/>
 
                             <ProjectCard
                             icon={icons["User"]}
-                            title={"Project 2"}
-                            description={"This project is lorem isup dom bafvfdfds fdfdas in the wall"}
-                            technologies={['Django','Javasciprt','Python']}
+                            title={"Crypto Trading Automation"}
+                            description={"Developed an automated crypto trading system using Pine Script, webhooks, Bybit API, AWS Lambda, and Automa extension to execute trades seamlessly."}
+                            technologies={['Automa','Pine Script','Python']}
+                            />
+
+                            
+                            <ProjectCard
+                            icon={icons["User"]}
+                            title={"3D Point Cloud Segmentation for Oil Palm Trees"}
+                            description={"Research FYP evaluating models for segmenting oil palm organs (trunk, branches, leaves, fruits) from 3D point clouds."}
+                            technologies={['Machine Learning','Python']}
+                            />
+
+                            <ProjectCard
+                            icon={icons["User"]}
+                            title={"Multi-Agent Pathfinding Simulation for Warehouse Environments"}
+                            description={"Implemented experiments with A*, Dijkstra, and SEAC algorithms in warehouse environments. Built configurable simulations with agents, obstacles, and humans, and automated result generation"}
+                            technologies={['Python','PathFinding']}
                             />
 
                         </div>
@@ -165,9 +190,64 @@ export default function Page() {
                             Technologies
                         </h1>
 
-                        <div className=" mt-3 rounded-xl h-100 p-3 w-full " class="card">
-                                tech 1 
-                                tech 2
+                        <div className="flex flex-col mt-3 rounded-xl h-100 p-3 w-full " class="card">
+
+                            <div className="flex flex-row justify-center"> 
+                                <img 
+                                className="w-40 h-40 m-3"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" 
+                                />
+
+                                <img 
+                                className="w-40 h-40 m-3"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
+
+                                <img 
+                                className="w-40 h-40 m-3"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+
+                                
+                                <img 
+                                className="w-40 h-40 m-3"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            
+                                
+                                <img 
+                                className="w-40 h-40 m-3"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+
+                                
+                                <img 
+                                className="w-40 h-40 m-3"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+
+                                
+                            
+                            </div>
+
+                            <div className="flex flex-row justify-center mb-3   ">
+                                <img 
+                                    className="w-40 h-40 m-3"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+                                
+
+                                <img 
+                                className="w-40 h-40 m-3"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg" />
+          
+                                
+                                <img 
+                                className="w-40 h-40 m-3"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+                            
+                                
+                                <img 
+                                className="w-40 h-40 m-3"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg" />
+          
+
+                            </div>
+                            
 
                         </div>
                     </div>
