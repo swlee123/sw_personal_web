@@ -6,9 +6,9 @@ import CareerCard from "../components/CareerCard";
 import LandingHero from "../components/LandingHero";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { Film, User, MapPin } from 'lucide-react';
-import ProjectCard from "../components/ProjectCard";
+import {ProjectCard }from "../components/ProjectCard";
 
-export default function Page() {
+export default function page() {
 
    
 
