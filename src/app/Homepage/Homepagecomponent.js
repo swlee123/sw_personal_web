@@ -150,7 +150,7 @@ export default function Homepagecomponent() {
                             technologies={['React','Javascript','Stripe','Tailwind CSS']}/>
 
                             <ProjectCard
-                         
+                            link={"https://www.google.com"}
                             title={"Crypto Trading Automation"}
                             description={"Developed an automated crypto trading system using Pine Script, webhooks, Bybit API, AWS Lambda, and Automa extension to execute trades seamlessly."}
                             technologies={['Automa','Pine Script','Python']}
