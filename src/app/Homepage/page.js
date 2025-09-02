@@ -1,12 +1,10 @@
 
 import Image from "next/image";
 import Cards from "../components/Cards";
-import Timeline from "../components/Timeline";
 import CareerCard from "../components/CareerCard";
 import LandingHero from "../components/LandingHero";
-import ParticlesBackground from "../components/ParticlesBackground";
 import { Film, User, MapPin } from 'lucide-react';
-import {ProjectCard }from "../components/ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 
 export default function page() {
 
