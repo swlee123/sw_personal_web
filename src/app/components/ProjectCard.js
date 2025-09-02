@@ -1,9 +1,13 @@
-export default function ProjectCard({ title, description, technologies }){
+export default function ProjectCard({link,title, description, technologies }){
+
+    const openlink = (link) =>{
+      window.location.href(link)
+    }
     return (
       // The main card container
       // This div sets the overall look: a light background, rounded corners, padding, and a subtle shadow.
       // The hover effect makes it lift up and gives it a border.
-      <div className="flex-1 bg-white overflow-hidden my-3 mx-3 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border border-gray-100 hover:border-blue-400 transform hover:-translate-y-2 cursor-pointer">
+      <div onClick={openlink(link)} className="flex-1 bg-white overflow-hidden my-3 mx-3 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border border-gray-100 hover:border-blue-400 transform hover:-translate-y-2 cursor-pointer">
   
         {/* Title of the card */}
         <h3 className="text-xl font-semibold mb-2 text-gray-900">{title}</h3>

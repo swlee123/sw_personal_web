@@ -144,7 +144,7 @@ export default function Homepagecomponent() {
 
                         <div className="flex flex-grow bg-amber-500 opacity-70 my-3 rounded-xl h-100 p-3 w-full " id="card">
                             <ProjectCard
-                          
+                            link={"https://amazon-deploy.vercel.app/"}
                             title={"Amazon Web Clone"}
                             description={"Amazon e-commerce clone.Implemented user accounts, product listings, carts, and secure payments with responsive UI and server-side rendering for fast, seamless performance."}
                             technologies={['React','Javascript','Stripe','Tailwind CSS']}/>
@@ -158,14 +158,14 @@ export default function Homepagecomponent() {
 
                             
                             <ProjectCard
-                     
+                            link={"https://github.com/swlee123/fyp_3DSegmentation-of-Oil-palm-Bunches-and-Fronds-for-Autonomous-Harvesting"}
                             title={"3D Point Cloud Segmentation for Oil Palm Trees"}
                             description={"Research FYP evaluating models for segmenting oil palm organs (trunk, branches, leaves, fruits) from 3D point clouds."}
                             technologies={['Machine Learning','Python']}
                             />
 
                             <ProjectCard
-                         
+                            link={"https://github.com/swlee123/DIA_Autonomous_Warehouse"}
                             title={"Multi-Agent Pathfinding Simulation for Warehouse Environments"}
                             description={"Implemented experiments with A*, Dijkstra, and SEAC algorithms in warehouse environments. Built configurable simulations with agents, obstacles, and humans, and automated result generation"}
                             technologies={['Python','PathFinding']}
