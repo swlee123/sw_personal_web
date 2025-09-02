@@ -1,4 +1,4 @@
-const ProjectCard = ({ icon, title, description, technologies }) => {
+export default function ProjectCard({ icon, title, description, technologies }){
     return (
       // The main card container
       // This div sets the overall look: a light background, rounded corners, padding, and a subtle shadow.
@@ -29,4 +29,3 @@ const ProjectCard = ({ icon, title, description, technologies }) => {
     );
   };
 
-export default ProjectCard

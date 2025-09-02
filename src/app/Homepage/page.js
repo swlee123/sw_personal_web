@@ -1,4 +1,4 @@
-
+'use client'
 import Image from "next/image";
 import Cards from "../components/Cards";
 import CareerCard from "../components/CareerCard";
