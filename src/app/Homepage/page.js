@@ -6,7 +6,7 @@ import LandingHero from "../components/LandingHero";
 import { Film, User, MapPin } from 'lucide-react';
 import ProjectCard from "../components/ProjectCard";
 
-export default function page() {
+export default function Homepage() {
 
    
 
