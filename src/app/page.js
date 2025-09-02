@@ -1,6 +1,6 @@
 
 
-import Homepage from "./Homepage/page";
+import Homepagecomponent from "./Homepage/Homepagecomponent";
 
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
 
     return (
       
-      <Homepage/>
+      <Homepagecomponent/>
  
 
     );

@@ -5,7 +5,7 @@ import CareerCard from "../components/CareerCard";
 import LandingHero from "../components/LandingHero";
 import ProjectCard from "../components/ProjectCard";
 
-export default function Homepage() {
+export default function Homepagecomponent() {
 
 
     return (
