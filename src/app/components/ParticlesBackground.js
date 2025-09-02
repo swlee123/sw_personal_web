@@ -4,10 +4,11 @@ import Particles from 'react-tsparticles';
 import { loadSlim } from 'tsparticles-slim';
 import particle_config from './particlesjs-config';
 
+
 const ParticlesBackground = () => {
     
     const particlesInit = useCallback(async engine => {
-        console.log(engine);
+        // console.log(engine);
         // await loadFull(engine);
         await loadSlim(engine);
     }, []);

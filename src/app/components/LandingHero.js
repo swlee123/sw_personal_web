@@ -1,12 +1,14 @@
-"use-client";
+"use client";
 
 import React from "react";
 import Typewriter from "typewriter-effect"
-import ParticlesBackground from "./ParticlesBackground"
+import dynamic from "next/dynamic";
 
+const ParticlesBackground = dynamic(() => import("./ParticlesBackground"), { ssr: false })
 
 export default function LandingHero({href})
 {
+    
 
     return(
         <div className="flex items-center justify-center w-full h-screen bg-[#7F55B1] text-white font-sans overflow-hidden relative">

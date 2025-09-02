@@ -3,18 +3,10 @@ import Image from "next/image";
 import Cards from "../components/Cards";
 import CareerCard from "../components/CareerCard";
 import LandingHero from "../components/LandingHero";
-import { Film, User, MapPin } from 'lucide-react';
 import ProjectCard from "../components/ProjectCard";
 
 export default function Homepage() {
 
-   
-
-    const icons = {
-        Film: <Film size={32} className="text-gray-800" />,
-        User: <User size={32} className="text-gray-800" />,
-        MapPin: <MapPin size={32} className="text-gray-800" />,
-    };
 
     return (
         <div className="flex flex-col items-center justify-center z-0 ">
@@ -152,13 +144,13 @@ export default function Homepage() {
 
                         <div className="flex flex-grow bg-amber-500 opacity-70 my-3 rounded-xl h-100 p-3 w-full " id="card">
                             <ProjectCard
-                            icon={icons["Film"]}
+                          
                             title={"Amazon Web Clone"}
                             description={"Amazon e-commerce clone.Implemented user accounts, product listings, carts, and secure payments with responsive UI and server-side rendering for fast, seamless performance."}
                             technologies={['React','Javascript','Stripe','Tailwind CSS']}/>
 
                             <ProjectCard
-                            icon={icons["User"]}
+                         
                             title={"Crypto Trading Automation"}
                             description={"Developed an automated crypto trading system using Pine Script, webhooks, Bybit API, AWS Lambda, and Automa extension to execute trades seamlessly."}
                             technologies={['Automa','Pine Script','Python']}
@@ -166,14 +158,14 @@ export default function Homepage() {
 
                             
                             <ProjectCard
-                            icon={icons["User"]}
+                     
                             title={"3D Point Cloud Segmentation for Oil Palm Trees"}
                             description={"Research FYP evaluating models for segmenting oil palm organs (trunk, branches, leaves, fruits) from 3D point clouds."}
                             technologies={['Machine Learning','Python']}
                             />
 
                             <ProjectCard
-                            icon={icons["User"]}
+                         
                             title={"Multi-Agent Pathfinding Simulation for Warehouse Environments"}
                             description={"Implemented experiments with A*, Dijkstra, and SEAC algorithms in warehouse environments. Built configurable simulations with agents, obstacles, and humans, and automated result generation"}
                             technologies={['Python','PathFinding']}
