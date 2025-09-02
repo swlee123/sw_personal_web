@@ -50,19 +50,19 @@ export default function Homepage() {
                     <div className="flex flex-col mx-15">
 
                         
-                        <div class="flex justify-between border-b py-3 w-80">
-                            <span class="font-semibold uppercase bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 bg-clip-text text-transparent mr-10">Name:</span>
-                            <span class="text-white font-semibold mr-auto">Lee Shang Wei</span>
+                        <div className="flex justify-between border-b py-3 w-80">
+                            <span className="font-semibold uppercase bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 bg-clip-text text-transparent mr-10">Name:</span>
+                            <span className="text-white font-semibold mr-auto">Lee Shang Wei</span>
                         </div>
 
-                        <div class="flex justify-between border-b py-3">
-                            <span class="font-semibold uppercase  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 bg-clip-text text-transparent mr-5">School:</span>
-                            <span class="text-white font-semibold  mr-auto">University Of Notingham Malaysia</span>
+                        <div className="flex justify-between border-b py-3">
+                            <span className="font-semibold uppercase  bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 bg-clip-text text-transparent mr-5">School:</span>
+                            <span className="text-white font-semibold  mr-auto">University Of Notingham Malaysia</span>
                         </div>
 
-                        <div class="flex justify-between border-b py-3">
-                            <span class="font-semibold uppercase bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 bg-clip-text text-transparent mr-5">Hometown:</span>
-                            <span class="text-white font-semibold mr-auto">Sungai Pelek, Malaysia</span>
+                        <div className="flex justify-between border-b py-3">
+                            <span className="font-semibold uppercase bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 bg-clip-text text-transparent mr-5">Hometown:</span>
+                            <span className="text-white font-semibold mr-auto">Sungai Pelek, Malaysia</span>
                         </div>
                         
                     </div>
@@ -93,7 +93,7 @@ export default function Homepage() {
 
                         <div 
                         className="bg-white rounded-xl p-6 shadow-xl overflow-hidden w-full " 
-                        class="career card">
+                        id="career card">
                             
                             <div className="flex justify-between items-center mb-4">
                                 <h3 className="text-xl font-bold">
@@ -150,7 +150,7 @@ export default function Homepage() {
                             Project
                         </h1>
 
-                        <div className="flex flex-grow bg-amber-500 opacity-70 my-3 rounded-xl h-100 p-3 w-full " class="card">
+                        <div className="flex flex-grow bg-amber-500 opacity-70 my-3 rounded-xl h-100 p-3 w-full " id="card">
                             <ProjectCard
                             icon={icons["Film"]}
                             title={"Amazon Web Clone"}
@@ -188,7 +188,7 @@ export default function Homepage() {
                             Technologies
                         </h1>
 
-                        <div className="flex flex-col mt-3 rounded-xl h-100 p-3 w-full " class="card">
+                        <div className="flex flex-col mt-3 rounded-xl h-100 p-3 w-full " id="card_2">
 
                             <div className="flex flex-row justify-center"> 
                                 <img 
