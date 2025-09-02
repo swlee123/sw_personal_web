@@ -1,6 +1,6 @@
 'use client';
 
-import Page from "./Homepage/page";
+import page from "./Homepage/page";
 
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
 
     return (
       
-      <Page/>
+      <page/>
  
 
     );
