@@ -1,7 +1,9 @@
+import { useRouter } from "next/navigation";
 export default function ProjectCard({link,title, description, technologies }){
 
+    const router = useRouter();
     const openlink = (link) =>{
-      window.location.href = link
+      router.push(link);
     }
     return (
       // The main card container
